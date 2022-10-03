@@ -7,7 +7,7 @@ console.log(nome)
 let idade = 27
 //idade = 'Ana'
 idade = 27.5
-
+idade = 10
 console.log(idade)
 
 // boolean
