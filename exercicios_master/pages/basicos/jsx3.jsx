@@ -1,7 +1,8 @@
 export default function jsx() {
-    return (
+    const conteudo =  (
         <div>
-            <h1>JSX #03</h1>
+            <h1 className="vermelha">JSX #03</h1>
         </div>
     )
+    return conteudo
 }

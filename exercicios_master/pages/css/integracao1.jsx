@@ -1,16 +1,16 @@
 
+// para importar o css devo editar o _app.tsx 
+// import "./integracao1.css"
 
-
-
-
-
+// NAO POSSO IMPORTAR AQUI só no _app.tsx
 
 export default function integracao() {
     return (
-        <div>
-            <h1>minha pomba</h1>
-            <h2>titulo 2</h2>
-            <h3>titulo3</h3>
+        <div className="integracao1">
+            <div className="vermelha">Texto #01</div>
+            <div className="azul">Texto #02</div>
+            <div className="branco">Texto #03</div>
         </div>
     )
 }
+
