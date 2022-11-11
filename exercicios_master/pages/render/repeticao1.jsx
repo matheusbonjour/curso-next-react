@@ -31,7 +31,7 @@ export default function Repeticao1() {
     function renderizar3Lista() {
         return listaAprovados.map(function(nome, i) {
             return <li key={i}>{nome}</li> 
-        }) // fecha map aq
+        }) // fecha map aq teste!
     }
 
     return (
