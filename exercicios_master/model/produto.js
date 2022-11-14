@@ -1,23 +1,23 @@
-class Produto {
-    #id 
-    #nome 
+export default class Produto {
+    #id
+    #nome
     #preco
 
     constructor(id, nome, preco) {
         this.#id = id
         this.#nome = nome
-        this.#preco = preco 
+        this.#preco = preco
     }
 
     get id() {
-        return id 
+        return this.#id
     }
-
+    
     get nome() {
-        return nome 
+        return this.#nome
     }
-
+    
     get preco() {
-        return preco 
+        return this.#preco
     }
 }
