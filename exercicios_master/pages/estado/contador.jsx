@@ -1,5 +1,5 @@
 import { useState } from "react"
-import ContadorDisplay from "../../components/indireta1/ContadorDisplay"
+import ContadorDisplay from "../../components/indireta1/NumeroDisplay"
 
 export default function contador() {
     const [numero, setNumero] = useState(0)
