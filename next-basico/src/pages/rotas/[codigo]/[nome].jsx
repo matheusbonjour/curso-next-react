@@ -1,22 +1,17 @@
-import { useRouter } from "next/router"
-import Link from "next/link"
+import { useRouter } from 'next/router'
+import Link from 'next/link'
 
-export default function codigoENome() {
+export default function CodigoENome() {
     const router = useRouter()
     const codigo = router.query.codigo
     const nome = router.query.nome
-
-
+    
     return (
         <div>
-            <h1>Rotas / {codigo} / Busca e Busca</h1>
-            <Link href="/rotas">
+            <h1>Rotas / {codigo} / {nome}</h1>
+            <Link href="/rotas" passHref>
                 <button>Voltar</button>
             </Link>
         </div>
     )
 }
-
-
-// Quando tem o nome da pasta ou arquivo envolvido por [], ela se torna um
-// objetdo dinamico

@@ -4,7 +4,7 @@ export default function Questao() {
     const [questao, setQuestao] = useState(null)
 
     useEffect(() => {
-        fetch('http://localhost:3000/api/questao/id')
+        fetch('http://localhost:3000/api/questao/123')
             .then(resp => resp.json())
             .then(setQuestao)
     }, [])

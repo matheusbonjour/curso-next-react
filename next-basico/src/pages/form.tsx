@@ -1,6 +1,6 @@
 import { useState } from "react"
 
-export default function Form(props) {
+export default function Form(props: any) {
     const [nome, setNome] = useState("")
     const [idade, setIdade] = useState(0)
     const [usuarios, setUsuarios] = useState([])
