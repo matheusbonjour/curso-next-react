@@ -1,5 +1,5 @@
 import { useState } from "react"
-const celas: any = 10 
+
 export default function Form(props: any) {
     const [nome, setNome] = useState("")
     const [idade, setIdade] = useState(0)
